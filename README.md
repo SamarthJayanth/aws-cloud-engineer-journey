@@ -2,3 +2,6 @@
 Week 1:
 The root user has absolute access of all the account resources. 
 Because of this, the root user credentials must be safeguarded. IAM is the management of users and what they can access. Here, we can assign roles to specific users, with specific policies(that we can manage) to limit one's access to resources, especially with the concept of least privilege. The Shared Responsibility Model is for managing what a cloud provider and user are responsible for. The cloud provider manages the overall infrastructure of the cloud, ensuring consistent runtime and it's services. However, the user has responsibility of the managing the resources the cloud provider provides them, such as protecting data, IAM, and usage limits. 
+
+Week 2:
+For the S3testuser, we attached a policy that allowed it access to get and put objects to a specific S3 bucket. We create an s3 bucket with this exact name, and now the s3testuser can access all objects placed into that s3 bucket.
