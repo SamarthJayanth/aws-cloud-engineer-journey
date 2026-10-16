@@ -1,0 +1,2 @@
+Week #3
+First, we have to spin up the EC2 instance with appropriate permissions, with certain parameters and packages such that the instance starts with those packages and files. We also open some ports in order for us to ssh into the ec2 instance and run commands on it. After the EC2 instance is spun up, it is assigned to a specific public public IP. We copy this public IP, ssh into the instance with this, and can run our curl commands there, then spin everything down. 
