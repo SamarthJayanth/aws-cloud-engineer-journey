@@ -1,0 +1,3 @@
+#Week 05
+
+We can ssh into the public IP of the bastion ec2 instance. Since this is a defined call by the security group, the internet gateway allows this call. Now we are within this VPC, which allows us to access the private subnets within this VPC as well. From this instance, we can ssh into the private ec2 instance. This call is defined as it is from within the VPC, so we can hit this instance. 
