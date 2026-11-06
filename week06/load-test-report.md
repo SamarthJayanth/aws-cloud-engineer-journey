@@ -1,0 +1,1 @@
+Upon higher CPU utilization, extra EC2 instances were spun up to compensate for this
