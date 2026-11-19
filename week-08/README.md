@@ -1,0 +1,1 @@
+Terraform plan just gives a view into what changes will be made exactly. Apply will actually make those changes to the current cloud provider service. Destroy will delete all resources that were specified in the terraform files. 
